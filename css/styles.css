@@ -1,0 +1,104 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+html, body{
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html, 
+body,
+h1,
+h2,
+p{
+	margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 450px;
+}
+
+/*=================
+     App layout
+  =================*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.header-icons{
+    width: 2.125rem;
+}
+
+.header-logo-icon{
+    width: 5.25rem;
+}
+
+.dog-profile{
+    background-size: cover;
+    margin: .5em;
+    padding: 1rem;
+    border-radius: 1rem;
+    aspect-ratio: 53/75;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.badge{
+    width: 50%;
+    margin-top: 2.5rem;
+    transform: rotate(-35deg);
+}
+
+.dog-profile-text{
+    margin-top: auto;
+}
+
+.name-age{
+    font-size: 2rem;
+}
+.bio{
+    font-size: 1rem;
+}
+.option-buttons{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.btn{
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.btn img{
+    width: 2rem;
+}
+
+.btn-nope:hover{
+    background-color: #FFE7EF;
+}
+
+.btn-like:hover{
+    background-color: #DBFFF4;
+}
+
