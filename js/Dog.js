@@ -24,11 +24,11 @@ class Dog {
     setLiked(){
         this.hasBeenSwiped = true
         this.hasBeenLiked = true
-        this.badgeHtml = `<img class="badge" src="../images/badge-like.png">`
+        this.badgeHtml = `<img class="badge" src="./images/badge-like.png">`
     }
     setNope(){
         this.hasBeenSwiped = true
-        this.badgeHtml = `<img class="badge" src="../images/badge-nope.png">`
+        this.badgeHtml = `<img class="badge" src="./images/badge-nope.png">`
     }
 }
 
